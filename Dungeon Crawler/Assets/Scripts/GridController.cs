@@ -6,8 +6,8 @@ using UnityEngine.Tilemaps;
 public class GridController : MonoBehaviour {
 
 	private Grid grid;
-	[SerializeField] private Tilemap interaction;
-	[SerializeField] private Tile hoverTile;
+	public Tilemap interaction;
+	public Tile hoverTile;
 
 	private Vector3Int previousTilePosition = new Vector3Int ();
 
